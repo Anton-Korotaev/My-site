@@ -26,13 +26,17 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #313131;
+  color: #6b6b6b;
   overflow-x: hidden;
 }
 
 a,
 button {
   transition: all 0.3s ease;
+}
+
+button {
+border: 2px
 }
 
 a:hover {
@@ -324,6 +328,9 @@ p {
   .tm-portfolio-description {
     padding: 20px 30px;
   }
+  .hide {
+    display: none;
+  }
 }
 
 @media (max-width: 572px) {
@@ -340,10 +347,4 @@ p {
   .tm-brand-container {
     padding: 25px;
   }
-}
-
-.image-container {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 20px; /* Расстояние между картинками */
 }
